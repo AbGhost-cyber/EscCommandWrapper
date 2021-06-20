@@ -167,7 +167,7 @@ public class EscCommandWrapper {
         return this;
     }
 
-    public EscCommandWrapper enableAllModes() {
+    public EscCommandWrapper enableAllTextModes() {
         this.setUnderLine(EscCommand.ENABLE.ON);
         this.setEmphasized(EscCommand.ENABLE.ON);
         this.setFont(EscCommand.FONT.FONTB);
